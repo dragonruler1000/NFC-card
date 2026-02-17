@@ -5,123 +5,6 @@
 	(uuid "aad9502a-82fc-4295-b8f3-e74ff465dcd1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Antenna_Loop"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "AE"
-				(at 1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Antenna_Loop"
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Loop antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "loop antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Antenna_Loop_0_1"
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.54 -2.54) (xy 5.08 0) (xy 1.27 3.81) (xy -2.54 0) (xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Antenna_Loop_1_1"
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -813,6 +696,18 @@
 		(color 0 0 0 0)
 		(uuid "f185d0d1-c68a-44dd-836b-51b0e9ed008a")
 	)
+	(no_connect
+		(at 134.62 86.36)
+		(uuid "3c6d4535-48a8-4618-b251-1241a6895ed8")
+	)
+	(no_connect
+		(at 114.3 86.36)
+		(uuid "7ec82218-d56b-42b7-82cf-752e8adc8b90")
+	)
+	(no_connect
+		(at 114.3 83.82)
+		(uuid "8a15f6f9-2c3c-49e8-bb8d-945070e5d5ed")
+	)
 	(wire
 		(pts
 			(xy 110.49 81.28) (xy 114.3 81.28)
@@ -845,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 60.96) (xy 123.19 60.96)
+			(xy 114.3 60.96) (xy 134.62 60.96)
 		)
 		(stroke
 			(width 0)
@@ -945,16 +840,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 60.96) (xy 125.73 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf58bc9-fe76-49a7-9522-9b8499c13741")
-	)
-	(wire
-		(pts
 			(xy 104.14 102.87) (xy 104.14 81.28)
 		)
 		(stroke
@@ -982,76 +867,6 @@
 			(type default)
 		)
 		(uuid "f6abc811-ea05-419f-9c70-92653c061339")
-	)
-	(symbol
-		(lib_id "Device:Antenna_Loop")
-		(at 123.19 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24ebacc8-597b-43e6-8332-25815407591b")
-		(property "Reference" "AE1"
-			(at 129.54 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna_Loop"
-			(at 129.54 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Loop antenna"
-			(at 123.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57e8a201-b651-44c4-88e9-f2d129965753")
-		)
-		(pin "2"
-			(uuid "a2423a61-4a94-4597-9301-72ed7fd29f9a")
-		)
-		(instances
-			(project ""
-				(path "/aad9502a-82fc-4295-b8f3-e74ff465dcd1"
-					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
