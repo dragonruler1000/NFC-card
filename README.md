@@ -7,7 +7,7 @@ To use this project all you need to do is order it as a PCBA (unless you want to
 
 ## Images
 
-![[schematic.png]]
+![[screenshots/schematic.png]]
 ![[Pasted image 20260216202302.png]]
 3d model front
 ![[Pasted image 20260216202428.png]]
