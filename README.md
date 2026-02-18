@@ -3,7 +3,7 @@ All this is is a NTAG 211, a warm white led, a cap, and a resister. the hardest 
 
 I have wanted to play around with NFC stuff for a while but just haven't got around to buying any NFC cards or pucks and i though i've been invited to share The Book of Mormon so i might as well make a custom NFC card to make sharing it easier.
 
-To use this project all you need to do is order it as a PCBA (unless you want to hand solder smd componets) using the components listed in the BOM.
+To use this project all you need to do is order it as a PCBA (unless you want to hand solder smd componets) using the components listed in the BOM. Then when it arrives you can use it like any NFC card. so program it via NFC tools or another NFC programming app and use a nfc enabled phone to read the nfc card.
 
 ## Images
 
