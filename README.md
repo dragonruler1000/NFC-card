@@ -7,12 +7,13 @@ To use this project all you need to do is order it as a PCBA (unless you want to
 
 ## Images
 
-![[screenshots/schematic.png]]
-![[PCB.png]]
+![schematic](screenshots/schematic.png)
+![pcb](PCB.png)
+
 3d model front
-![[3D-model-front.png]]
+![3D model front](3D-model-front.png)
 3D model back
-![[3D-model-back.png]]
+![3D model back](3D-model-back.png)
 
 # BOM:
 
