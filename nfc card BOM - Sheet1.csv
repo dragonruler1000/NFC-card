@@ -1,0 +1,7 @@
+Item Count,Item Name,Unit Price,Total Price,Price with discount,Link,Running Total,Running Total with discounts,lcsc/jlcpcb part number,customer part number,Notes
+5,Warm white LED,0.0135,0.07,0.07,https://jlcpcb.com/partdetail/XINGLIGHT-XL2012WWC/C965820,0.07,0.07,C965820,1,
+5,47Ω resistor,0.0004,0,0,https://jlcpcb.com/partdetail/GiantOhm-GR0402J47RTAG00/C49653152,0.07,0,C49653152,2,love how cheap smd parts are from jlcbcp for pcba
+5,NTAG I²C plus 1K,0.08015,0.4,0.4,https://jlcpcb.com/partdetail/NXPSemicon-NT3H2111W0FHKH/C710403,0.49,0.42,C710403,3,
+5,220nF capaciter,0.0016,0.01,0.01,https://jlcpcb.com/partdetail/HRE-CGA0402X5R224K100GT/C7503518,0.5,0.01,C49653152,4,
+5,,,0,0,,0.5,0,,5,
+1,,,0,0,,0.5,0,,6,
